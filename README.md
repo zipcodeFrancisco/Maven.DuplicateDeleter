@@ -1,7 +1,7 @@
 
 # Delete Duplicates 
 * **Objective**
-	* To write a method which removes duplicate elements from an array.
+	* To write methods which removes duplicate elements from an array.
 * **Purpose**
 	* To demonstrate practical understanding of `while`, `for`, and `for each` loops.
 * **Instructions**
