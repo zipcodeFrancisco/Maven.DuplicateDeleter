@@ -31,9 +31,9 @@
 
 
 
-# Sample Behavior - DuplicateDeleter.removeDuplicateExactly(n)
+## Sample Behavior - DuplicateDeleter.removeDuplicateExactly(n)
 
-## Example 1
+### Example 1
 * Sample Script
 
     ```
@@ -57,7 +57,7 @@
     
     
 
-## Example 2
+### Example 2
 * Sample Script
 
     ```
@@ -81,7 +81,7 @@
     
     
 
-## Example 3
+### Example 3
 * Sample Script
 
     ```
@@ -121,9 +121,9 @@
 
 
 
-# Sample Behavior - DuplicateDeleter.removeDuplicates(n)
+## Sample Behavior - DuplicateDeleter.removeDuplicates(n)
 
-## Example 1
+### Example 1
 * Sample Script
 
     ```
@@ -149,7 +149,7 @@
 
 
 
-## Example 2
+### Example 2
 * Sample Script
 
     ```
@@ -174,7 +174,7 @@
 
 
 
-## Example 3
+### Example 3
 * Sample Script
 
     ```
@@ -207,9 +207,9 @@
     
     
     
-# Sample Behavior - Idempotence
+## Sample Behavior - Idempotence
 
-## Example 1
+### Example 1
 * Sample Script
 
     ```
@@ -236,7 +236,7 @@
     ```
     
 
-## Example 2
+### Example 2
 * Sample Script
 
     ```
