@@ -31,7 +31,7 @@
 
 
 
-## Sample Behavior - DuplicateDeleter.removeDuplicateExactly(n)
+## Sample Behavior - `DuplicateDeleter.removeDuplicateExactly(n)`
 
 ### Example 1
 * Sample Script
@@ -121,7 +121,7 @@
 
 
 
-## Sample Behavior - DuplicateDeleter.removeDuplicates(n)
+## Sample Behavior - `DuplicateDeleter.removeDuplicates(n)`
 
 ### Example 1
 * Sample Script
