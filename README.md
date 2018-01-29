@@ -35,6 +35,7 @@
 
 ## Example 1
 * Sample Script
+
     ```
     // : Given
     Integer[] array = new Integer[]{1,1,1,23,23,56,57,58};
@@ -48,13 +49,17 @@
     ```
 
 * Sample Output
+
     ```
     [23,23,56,57,58]
     ```
     
+    
+    
 
 ## Example 2
 * Sample Script
+
     ```
     // : Given
     Integer[] array = new Integer[]{1,1,1,23,23,56,57,58};
@@ -68,13 +73,17 @@
     ```
 
 * Sample Output
+
     ```
     [1,1,1,23,23]
     ```
     
+    
+    
 
 ## Example 3
 * Sample Script
+
     ```
     // : Given
     Integer[] array = new Integer[]{0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5};
@@ -88,6 +97,7 @@
     ```
 
 * Sample Output
+
     ```
     [1, 1, 2, 4, 4, 5, 5, 5, 5]
     ```
@@ -115,6 +125,7 @@
 
 ## Example 1
 * Sample Script
+
     ```
     // : Given
     Integer[] array = new Integer[]{1,1,1,23,23,56,57,58};
@@ -127,7 +138,10 @@
     System.out.println(Arrays.toString(actual));
     ```
 
+
+
 * Sample Output
+
     ```
     []
     ```
@@ -137,6 +151,7 @@
 
 ## Example 2
 * Sample Script
+
     ```
     // : Given
     Integer[] array = new Integer[]{0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5};
@@ -149,7 +164,10 @@
     System.out.println(Arrays.toString(actual));
     ```
 
+
+
 * Sample Output
+
     ```
     [2]
     ```
@@ -158,6 +176,7 @@
 
 ## Example 3
 * Sample Script
+
     ```
     // : Given
     Integer[] array = new Integer[]{0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5};
@@ -170,7 +189,10 @@
     System.out.println(Arrays.toString(actual));
     ```
 
+
+
 * Sample Output
+
     ```
     [1,1,2,4,4]
     ```
@@ -189,6 +211,7 @@
 
 ## Example 1
 * Sample Script
+
     ```
     // : Given
     Integer[] array = new Integer[]{0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5};
@@ -204,7 +227,10 @@
     System.out.println(Arrays.toString(actual));
     ```
 
+
+
 * Sample Output
+
     ```
     [1,1,2,4,4]
     ```
@@ -212,6 +238,7 @@
 
 ## Example 2
 * Sample Script
+
     ```
     // : Given
     Integer[] array = new Integer[]{1,1,1,23,23,56,57,58};
@@ -227,7 +254,10 @@
     System.out.println(Arrays.toString(actual));
     ```
 
+
+
 * Sample Output
+
     ```
     [23,23,56,57,58]
     ```
