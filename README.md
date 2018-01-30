@@ -31,7 +31,7 @@
 
 
 <br><br><br><br>
-## Sample Behavior - `DuplicateDeleter.removeDuplicateExactly(n)`
+## `removeDuplicateExactly(n)`
 
 ### Example 1
 * Sample Script
@@ -121,7 +121,7 @@
 
 
 <br><br><br><br>
-## Sample Behavior - `DuplicateDeleter.removeDuplicates(n)`
+## `removeDuplicates(n)`
 
 ### Example 1
 * Sample Script
@@ -207,7 +207,7 @@
     
     
 <br><br><br><br>
-## Sample Behavior - Idempotence
+## Idempotence
 
 ### Example 1
 * Sample Script
