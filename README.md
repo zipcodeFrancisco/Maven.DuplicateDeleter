@@ -12,7 +12,7 @@
 * **Restrictions**
     * No use of any built-in data structures, (`Collection`, `List`, `Map`)
     * Operations should be [idempotent](https://stackoverflow.com/questions/1077412/what-is-an-idempotent-operation)
-        * The output of the methods should always be the same, regardless of how many times the method is called.
+        * If the input is the same, then the outputs of the methods should **always** be the same, regardless of how many times the method is called.
 
 
 
