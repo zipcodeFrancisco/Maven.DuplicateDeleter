@@ -3,7 +3,7 @@
 * **Objective**
 	* To write methods which remove duplicate elements from an array.
 * **Purpose**
-	* To demonstrate practical understanding of `while`, `for`, and `for each` loops.
+	* To demonstrate practical understanding of arrays, loops, and basic composition.
 * **Instructions**
     * Given an object, `IntegerDuplicateDeleter`, with a composite `Integer[]` object, write a method
         * `removeDuplicatesExactly` which removes all values in the array which occur exactly the specified number of times.
