@@ -5,7 +5,11 @@
 * **Purpose**
 	* To demonstrate practical understanding of `while`, `for`, and `for each` loops.
 * **Instructions**
-    * Given an object, `DuplicateDeleter`, with a composite `Integer[]` object, write a method
+    * Given an object, `IntegerDuplicateDeleter`, with a composite `Integer[]` object, write a method
+        * `removeDuplicatesExactly` which removes all values in the array which occur exactly the specified number of times.
+        * `removeDuplicates` which removes all values in the array which occur at least the specified number of times.
+	<br><br>
+    * Given an object, `StringDuplicateDeleter`, with a composite `String[]` object, write a method
         * `removeDuplicatesExactly` which removes all values in the array which occur exactly the specified number of times.
         * `removeDuplicates` which removes all values in the array which occur at least the specified number of times.
 
