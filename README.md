@@ -1,7 +1,7 @@
 
 # Delete Duplicates 
 * **Objective**
-	* To write methods which removes duplicate elements from an array.
+	* To write methods which remove duplicate elements from an array.
 * **Purpose**
 	* To demonstrate practical understanding of `while`, `for`, and `for each` loops.
 * **Instructions**
@@ -39,7 +39,7 @@
     ```
     // : Given
     Integer[] array = new Integer[]{1,1,1,23,23,56,57,58};
-    DuplicateDeleter deleter = new DuplicateDeleter(array);
+    DuplicateDeleter<Integer> deleter = new IntegerDuplicateDeleter(array);
     
     // : When
     Integer[] actual = deleter.removeDuplicateExactly(3);
@@ -63,7 +63,7 @@
     ```
     // : Given
     Integer[] array = new Integer[]{1,1,1,23,23,56,57,58};
-    DuplicateDeleter deleter = new DuplicateDeleter(array);
+    DuplicateDeleter<Integer> deleter = new IntegerDuplicateDeleter(array);
     
     // : When
     Integer[] actual = deleter.removeDuplicateExactly(1);
@@ -87,7 +87,7 @@
     ```
     // : Given
     Integer[] array = new Integer[]{0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5};
-    DuplicateDeleter deleter = new DuplicateDeleter(array);
+    DuplicateDeleter<Integer> deleter = new IntegerDuplicateDeleter(array);
     
     // : When
     Integer[] actual = deleter.removeDuplicateExactly(3);
@@ -129,7 +129,7 @@
     ```
     // : Given
     Integer[] array = new Integer[]{1,1,1,23,23,56,57,58};
-    DuplicateDeleter deleter = new DuplicateDeleter(array);
+    DuplicateDeleter<Integer> deleter = new IntegerDuplicateDeleter(array);
     
     // : When
     Integer[] actual = deleter.removeDuplicateExactly(1);
@@ -155,7 +155,7 @@
     ```
     // : Given
     Integer[] array = new Integer[]{0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5};
-    DuplicateDeleter deleter = new DuplicateDeleter(array);
+    DuplicateDeleter<Integer> deleter = new IntegerDuplicateDeleter(array);
     
     // : When
     Integer[] actual = deleter.removeDuplicates(2);
@@ -180,7 +180,7 @@
     ```
     // : Given
     Integer[] array = new Integer[]{0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5};
-    DuplicateDeleter deleter = new DuplicateDeleter(array);
+    DuplicateDeleter<Integer> deleter = new IntegerDuplicateDeleter(array);
     
     // : When
     Integer[] actual = deleter.removeDuplicates(3);
@@ -215,7 +215,7 @@
     ```
     // : Given
     Integer[] array = new Integer[]{0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5};
-    DuplicateDeleter deleter = new DuplicateDeleter(array);
+    DuplicateDeleter<Integer> deleter = new IntegerDuplicateDeleter(array);
     deleter.removeDuplicates(0);
     deleter.removeDuplicates(1);
     deleter.removeDuplicates(2);
@@ -242,7 +242,7 @@
     ```
     // : Given
     Integer[] array = new Integer[]{1,1,1,23,23,56,57,58};
-    DuplicateDeleter deleter = new DuplicateDeleter(array);
+    DuplicateDeleter<Integer> deleter = new IntegerDuplicateDeleter(array);
     deleter.removeDuplicates(0);
     deleter.removeDuplicates(1);
     deleter.removeDuplicates(2);
