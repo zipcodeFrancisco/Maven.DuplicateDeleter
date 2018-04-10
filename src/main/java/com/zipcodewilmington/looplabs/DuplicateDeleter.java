@@ -4,7 +4,7 @@ package com.zipcodewilmington.looplabs;
  * Created by leon on 1/25/18.
  */
 public abstract class DuplicateDeleter<T> implements DuplicateDeleterInterface<T> {
-    protected final T[] array;
+    protected T[] array;
 
     public DuplicateDeleter(T[] intArray) {
         this.array = intArray;
